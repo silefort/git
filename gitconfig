@@ -2,3 +2,7 @@
   name =  Simon Lefort
   email = simon.lefort@gmail.com
   username = slefort
+[alias]
+	s = status
+	c = "commit -m "
+	a = add -p
