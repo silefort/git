@@ -4,11 +4,12 @@
   username = slefort
 [alias]
 	s = status
-	c = "commit -m "
+	c = commit -m
 	a = add -p
 	unstash = stash pop
 	trash = checkout HEAD --
 	trashall = reset --hard HEAD
+	p = push
 [core]
 	excludesFile = /Users/slefort/.custom_git/gitignore
 [fetch]
